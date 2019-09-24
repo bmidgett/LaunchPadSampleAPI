@@ -8,7 +8,7 @@ namespace LaunchPadAPI.Models
         [DataMember(Name = "id")]
         public string Id { get; set; }
 
-        [DataMember(Name = "full_name")]
+        [DataMember(Name = "name")]
         public string Name { get; set; }
 
         [DataMember(Name = "status")]
